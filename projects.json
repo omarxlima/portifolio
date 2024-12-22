@@ -1,0 +1,32 @@
+[
+    {
+      "name": "UI Clone do Disney Plus",
+      "image": "./assets/images/projeto-disney-plus.png",
+      "tags": ["HTML", "CSS", "Javascript", "API TMDB"],
+      "link": "https://github.com/omarxlima"
+    },
+    {
+      "name": "Formulário integrado com o Netlify Forms",
+      "image": "./assets/images/projeto-formulario.png",
+      "tags": ["Evento de formulário", "Animações", "Netlify"],
+      "link": "https://github.com/omarxlima"
+    },
+    {
+      "name": "Personagens do Guardiões da Galáxia",
+      "image": "./assets/images/projeto-guardioes.png",
+      "tags": ["Javascript", "Menu interativo"],
+      "link": "https://github.com/omarxlima"
+    },
+    {
+      "name": "Landing page do filme Mario Bros",
+      "image": "./assets/images/projeto-mario.png",
+      "tags": ["Flexbox", "Background animado"],
+      "link": "https://github.com/omarxlima"
+    },
+    {
+      "name": "UI Clone da Netflix",
+      "image": "./assets/images/projeto-netflix.png",
+      "tags": ["Responsivo", "Carrousel", "API TMDB"],
+      "link": "https://github.com/omarxlima"
+    }
+  ]
