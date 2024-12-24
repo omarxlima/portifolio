@@ -9,51 +9,60 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/global.css">
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
+<style>
+  
+</style>
 </head>
-<body>
+<body id="top">
+    <!-- Menu Superior -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
     <div class="app">
-        <section class="card user">
+        <section id="sobre" class="card user">
             <picture>
                 <img src="assets/images/89477643.jpeg" alt="">
             </picture>
             <div class="user__content">
                 <h1>Marx Lima</h1>
                 <p>Web Developer</p>
-                
                 <div class="social">
-                <a href="#" class="social__link" target="_blank">
-                    <i class="ph ph-linkedin-logo"></i>
-                </a>
-                <a href="#" class="social__link" target="_blank">
-                    <i class="ph ph-github-logo"></i>
-                </a>
-                <a href="#" class="social__link" target="_blank">
-                    <i class="ph ph-instagram-logo"></i>
-                </a>
-                <a href="#" class="social__link" target="_blank">
-                    <i class="ph ph-medium-logo"></i>
-                </a>
+                    <a href="#" class="social__link" target="_blank">
+                        <i class="ph ph-linkedin-logo"></i>
+                    </a>
+                    <a href="#" class="social__link" target="_blank">
+                        <i class="ph ph-github-logo"></i>
+                    </a>
+                    <a href="#" class="social__link" target="_blank">
+                        <i class="ph ph-instagram-logo"></i>
+                    </a>
+                    <a href="#" class="social__link" target="_blank">
+                        <i class="ph ph-medium-logo"></i>
+                    </a>
+                </div>
             </div>
-        </div>
         </section>
-        <section class="card about">
+        <section  class="card about">
             <h2 class="subtitle">Sobre</h2>
-            <p>Apaixonado pelo universo da programação,atualmente estou focando conhecimentos na área de desenvolvimento web com PHP, Laravel, Vue e Tailwind.
-            </p>
+            <p>Apaixonado pelo universo da programação, atualmente estou focando conhecimentos na área de desenvolvimento web com PHP, Laravel, Vue e Tailwind.</p>
             <p>Eu me importo profundamente com software de código aberto, privacidade, melhores práticas, padrões abertos, código idiomático e ótimas experiências de usuário e desenvolvedor.</p>
-            <p>Quando não estou codificando, gosto de cozinhar, jogos de estratégia, jogar futebol, assistir anime e música pesada. </p>
+            <p>Quando não estou codificando, gosto de cozinhar, jogar futebol, assistir anime e música pesada.</p>
         </section>
-        <section class="card projects">
+        <section id="projetos" class="card projects">
             <h2 class="subtitle">Projetos</h2>
             <div id="project__content">
                 <!-- projetos via json -->
             </div>
-
-            
-
         </section>
-
     </div>
-    <script src="assets/js/index.js"></script>
+
+    <script type="module" src="assets/js/index.js"></script>
+    
 </body>
+
 </html>

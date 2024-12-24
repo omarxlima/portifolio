@@ -1,0 +1,46 @@
+  /* Estilo básico para o menu */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 20px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Efeito de transparência ao rolar a página */
+.transparent {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Adicionando o espaçamento superior para que o conteúdo não sobreponha o menu fixo */
+body {
+    padding-top: 60px; /* Ajuste conforme necessário */
+}
+
