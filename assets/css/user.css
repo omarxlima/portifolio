@@ -87,3 +87,24 @@
 
     }
 }
+
+@media(max-width: 550px) {
+    .user{
+        flex-direction: column;
+        row-gap: 6px;
+        padding: 24px;
+    }
+    .user picture {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .user picture img{
+        border-radius: 12px;
+    }
+
+    user__content h1 {
+        font-size: 24px;
+    }
+}
